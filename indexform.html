@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝗦𝗔𝗡𝗕𝗘𝗔𝗥 𝗜𝗡𝗡𝗢𝗩𝗔𝗧𝗢𝗥𝗦 🌱</title>
+    <link rel="stylesheet" href="stylesform.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button class="btn" id="login-btn">Log In</button>
+                <button class="btn" id="signup-btn">Sign Up</button>
+            </div>
+            <form id="login-form" class="form active">
+                <h2>Log In</h2>
+                <input type="email" id="login-email" placeholder="Enter your email" required>
+                <input type="password" id="login-password" placeholder="Enter your password" required>
+                <!-- Redirect after validation -->
+                <button type="submit" class="submit-btn" id="login-submit-btn">Log In</button>
+            </form>
+            
+            <form id="signup-form" class="form">
+                <h2>Sign Up</h2>
+                <input type="email" id="signup-email" placeholder="Enter your email" required>
+                <input type="password" id="signup-password" placeholder="Create a password" required>
+                <input type="password" id="signup-password-confirm" placeholder="Confirm your password" required>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="scriptsform.js"></script>
+</body>
+</html>
